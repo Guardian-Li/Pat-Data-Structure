@@ -28,7 +28,8 @@ int main()
     }
     if(max<0)
         printf("0 %d %d",p[0],p[n-1]);
-    printf("%d %d %d",max,p[begin],p[end]);
+    else
+        printf("%d %d %d",max,p[begin],p[end]);
 
 
     return 0;
